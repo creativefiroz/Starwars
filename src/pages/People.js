@@ -25,7 +25,7 @@ export default function People() {
     }
 
     fetchPeople();
-  }, []);
+  }, [search]);
 
   return (
     <Container maxW="container.xl">

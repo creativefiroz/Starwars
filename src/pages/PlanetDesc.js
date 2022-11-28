@@ -21,9 +21,8 @@ export default function PlanetDesc() {
     }
 
     fetchPlanets();
-  }, []);
+  }, [id]);
 
-  console.log(planet);
   return (
     <Container maxW="container.xl">
       <SimpleGrid columns={3} spacing={30}>
