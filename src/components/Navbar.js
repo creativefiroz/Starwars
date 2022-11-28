@@ -16,7 +16,7 @@ export default function Navbar() {
     event.preventDefault();
     setSearchParams(createSearchParams({ search: event.target.search.value }));
   }
-
+  console.log(searchParams);
   return (
     <Container maxW="container.xl" mb="8">
       <Flex justifyContent={"space-between"} alignItems="center">
