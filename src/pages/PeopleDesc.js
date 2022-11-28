@@ -22,8 +22,8 @@ export default function PeopleDesc() {
     }
 
     fetchPeople();
-  }, []);
-  console.log(people);
+  }, [id]);
+
   return (
     <Container maxW="container.xl">
       <SimpleGrid columns={3} spacing={30}>
