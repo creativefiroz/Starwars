@@ -25,7 +25,8 @@ export default function Planets() {
     }
 
     fetchPlanets();
-  }, []);
+  }, [search]);
+
   return (
     <Container maxW="container.xl">
       <SimpleGrid columns={3} spacing={30}>
