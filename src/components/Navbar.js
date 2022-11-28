@@ -10,7 +10,7 @@ import {
 import { createSearchParams, NavLink, useSearchParams } from "react-router-dom";
 
 export default function Navbar() {
-  const [setSearchParams] = useSearchParams({});
+  const [searchParams, setSearchParams] = useSearchParams({});
 
   function handleSubmit(event) {
     event.preventDefault();
